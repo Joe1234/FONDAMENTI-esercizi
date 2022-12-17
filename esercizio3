@@ -1,0 +1,12 @@
+FUNZIONE elabora(numero1, numero2, numero3)
+    
+//elaboro le variabili
+    SE numero1>numero2
+        ALLORA risultato=numero1+numero2*numero3
+        ALTRIMENTI risultato=(numero1+numero2)/numero3
+    FINE SE
+
+//restituisco risultato
+    RESTITUISCI risultato
+
+FINE FUNZIONE

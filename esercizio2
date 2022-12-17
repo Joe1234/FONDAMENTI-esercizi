@@ -1,0 +1,8 @@
+FUNZIONE moltiplica(numero1, numero2)
+
+//moltiplico variabili
+    RISULTATO=numero1*numero2
+
+//restituisco RISULTATO
+    restituisci RISULTATO
+FINE FUNZIONE

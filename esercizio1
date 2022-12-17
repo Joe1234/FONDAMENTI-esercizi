@@ -1,0 +1,12 @@
+FUNZIONE confronta(numero1, numero2)
+
+    //confronto variabili
+    SE numero1>numero2
+        ALLORA risultato="primo"
+        ALTRIMENTI risultato="secondo"
+    FINE SE
+    
+    //restituisco risultato
+    restituisci risultato
+
+FINE FUNZIONE
