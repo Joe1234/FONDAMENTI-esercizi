@@ -1,0 +1,17 @@
+FUNZIONE esamina(numero1, 4)
+    //confronta numero1 e 4
+    SE numero < 4
+        ALLORA risultato = piccolo
+        //RESTITUISCO risultato
+        RESTITUISCI risultato
+    FINE SE
+    SE numero >4 e <10
+        ALLORA risultato = medio
+        //RESTITUISCO risultato
+        RESTITUISCI risultato
+    FINE SE
+    SE numero >10
+        ALLORA risultato = grande
+        //RESTITUISCO risultato
+        RESTITUISCI risultato
+    FINE SE
