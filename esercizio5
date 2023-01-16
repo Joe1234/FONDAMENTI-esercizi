@@ -1,0 +1,16 @@
+FUNZIONE calcola(numero1, numero2, simbolo)
+    //analizzo l'operatore
+        SE simbolo = *
+        ALLORA risultato = numero1*numero2
+        ALTRIMENTI
+            SE simbolo = /
+                SE numero2 = 0
+                    ALLORA risultato = impossibile dividere per 0
+                    ALTRIMENTI risultato = numero1/numero2
+                FINE SE
+            ALTRIMENTI risultato = operazione non riconosciuta
+            FINE SE
+        FINE SE
+    //restituisco il risultato
+        RESTITUISCI risultato
+FINE FUNZIONE   
