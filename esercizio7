@@ -1,0 +1,14 @@
+//Scrivi la funzione Controlla che riceve una parola e restituisce
+ giusto se la parola corrisponde al giorno odierno (es: lunedì), 
+sbagliato altrimenti.
+Per avere il giorno corrente utilizza la funzione di sistema OGGI() 
+che restituisce una parola corrispondente al giorno della settimana odierno
+
+FUNZIONE Controlla(parola,funzione OGGI)
+    SE parola = risultato FUNZIONE Oggi
+        ALLORA risultato = "giusto"
+        ALTRIMENTI risultato = "sbagliato"
+    FINE SE
+    //restituisco il risultato
+        restituisci risultato
+FINE

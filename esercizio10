@@ -1,0 +1,23 @@
+//Scrivi una funzione chiamata Tentativi che accetta in input un numero,
+// la funzione deve chiedere all'utente un numero fino a quando 
+//non è uguale a quello passato alla funzione. 
+//Se il numero inserito dall’utente è quello richiesto, 
+//la funzione deve stampare “trovato!”, 
+//se è minore deve stampare “minore”,
+// se è maggiore deve stampare “maggiore”
+
+FUNZIONE Tentativi(numero)
+genero un numero casuale r
+ricevo numero n
+	SE n<r
+		ALLORA risultato = "minore"
+				chiedi altro numero
+		ALTRIMENTI
+			SE n>r
+				ALLORA risultato = "maggiore"
+				chiedi altro numero
+				ALTRIMENTI risultato = "trovato"
+			FINE SE
+	FINE SE
+restituisci risultato
+FINE

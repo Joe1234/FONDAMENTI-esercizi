@@ -1,0 +1,6 @@
+//Scrivi la funzione Leggi_numeri che legge numeri e 
+//li inserisce in un array fino a quando l’utente inserisce 0, 
+//poi restituisce la somma dei numeri inseriti 
+//(utilizza la funzione Leggi() che restituisce un valore inserito dall’utente e la funzione Aggiungi(array, numero) che aggiunge un valore ad un array e restituisce l’array risultante
+
+FUNZIONE Leggi_numeri(numeri, array, numero_utente)

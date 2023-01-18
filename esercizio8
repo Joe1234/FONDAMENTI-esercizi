@@ -1,0 +1,22 @@
+//Scrivi la funzione Valuta che riceve un array di 10 voti, 
+//calcola la media e stampa sufficiente se la media vale almeno 6, 
+//insufficiente se la media vale meno di 6
+
+//inizializzo somma dei voti
+somma=0
+
+FUNZIONE Valuta(voti)
+	PER i DA 1 A 10
+	somma = somma + voto(i+1)
+	FINE PER
+//calcolo la media
+	media=somma/10
+	SE media<6
+		ALLORA risultato = "insufficiente"
+			ALTRIMENTI
+				SE media>=6
+					ALLORA risultato = "sufficiente"
+				FINE SE
+	FINE SE
+	restituisci risultato
+FINE
