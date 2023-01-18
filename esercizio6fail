@@ -1,0 +1,13 @@
+//Scrivi la funzione Minimo 
+//che riceve un array di 10 numeri e restituisce il più piccolo
+
+FUNZIONE Minimo (numeri)
+//inizializzo il risultato al primo elemento
+risultato = valori[1]
+//leggo tutti i valori, li assegno alla variabile numero e verifico se sono più piccolo di 1
+    PER i CHE VA DA 0 A 9
+    ASSEGNO A numero IL VALORE CORRISPONDENTE A i
+    FINE PER
+    SE numero[i] è MINORE DI numero[i+1]
+        ALLORA numero_minore è numerO[i]
+//RESTITUISCO IL RISULTATO
